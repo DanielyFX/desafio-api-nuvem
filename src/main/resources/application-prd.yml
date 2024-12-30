@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    username: postgres
+    password: ${PGPASSWORD}
+  #web:
+  #  resources:
+  #    static-locations: classpath:/META-INF/resources/
+  #    add-mappings: false  # Desativa a busca automática de recursos estáticos, caso você tenha um controle mais preciso
+  jpa:
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQL95Dialect
+      ddl-auto: validate
+
