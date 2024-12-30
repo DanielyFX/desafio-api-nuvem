@@ -1,6 +1,7 @@
 # Desafio api nuvem - Banco Xpto
 
 Java RESTful API criada para o desafio.
+Aplicação em produção na nuvem fornecida pela Railway
 
 ## Diagrama de Classes
 
